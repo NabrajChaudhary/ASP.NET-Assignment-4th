@@ -62,7 +62,7 @@
                             </li>
 
                             <li class="nav-item">
-                                <a class="btn btn-success btn-md mx-md-2  my-1 text-white" href="login.aspx" href="signup.aspx">
+                                <a class="btn btn-success btn-md mx-md-2  my-1 text-white" href="signup.aspx" href="signup.aspx">
                                     Signup</a>
                             </li>
 
