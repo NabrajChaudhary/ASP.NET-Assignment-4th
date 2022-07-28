@@ -66,7 +66,7 @@
                                 </div>
                             </li>
                              <li class="nav-item">
- <a class="btn btn-success btn-md" href="login.aspx">Signup</a>
+ <a class="btn btn-success btn-md" href="login.aspx" href="signup.aspx">Signup</a>
                           
                              <li class="nav-item">
                              <a class="btn btn-primary btn-md" href="login.aspx">Login</a>
