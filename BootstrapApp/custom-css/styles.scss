@@ -11,6 +11,21 @@ $black: #000000;
 $white: #ffffff;
 
 
+.btn-circle{
+    border-radius:25px;
+}
+
+.btn-brand{
+    background:$blue;
+    color:$white;
+    border:1px solid $blue;
+    &:hover{
+        background:$darkBlue;
+        border:1px solid $white;
+        color:$white;
+    }
+}
+
 
 * {
     padding: 0;
@@ -119,6 +134,7 @@ a {
 
 
 
+
 //Navbar
 //Navbar css
 .bg-light {
@@ -159,7 +175,9 @@ a {
 .loginPage {
     height: 100vh;
     background: $darkBlue;
-
+    h3{
+        font-weight:800;
+    }
     form {
         .form-group {
             label {
@@ -180,7 +198,14 @@ a {
                     box-shadow: none;
                     border-bottom: 2px solid $blue;
                 }
+
+                
             }
+        }
+        button,a{
+            padding:10px 14px;
+            border-radius:25px;
+
         }
     }
 }
