@@ -12,7 +12,7 @@
     <section class="loginPage">
         <div class="container">
             <div class="row d-flex justify-content-center align-items-center py-5">
-                <div class="col-md-5 mt-5">
+                <div class="col-12 col-sm-12  col-md-5 mt-5">
                     <img src="Assets/images/1.png" class="img-fluid" alt="no-image" />
                     <form id="form1" runat="server" class="mt-5">
                         <div class="form-group">
@@ -39,10 +39,8 @@
 
         </div>
     </section>
-    <script src="Scripts/jquery-3.4.1.min.js"></script>
-    <script src="Scripts/popper.min.js"></script>
     <script src="Scripts/bootstrap.min.js"></script>
-    
-   
+    <script src="Scripts/popper.js"></script>
+    <script src="Scripts/popper.min.js"></script>
 </body>
 </html>

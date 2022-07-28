@@ -1,9 +1,23 @@
 ﻿@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Raleway:wght@400;500;600;700;800&display=swap');
+/*This is the decalaration of variables */
+
+$blue: #00A4E2;
+$darkBlue: #003C6B;
+$red: #E03C33;
+$darkPink: #DE0084;
+$green: #009D4D;
+$yellow: #F3E400;
+$black: #000000;
+$white: #ffffff;
+
+
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    scroll-behavior:smooth;
 }
 
 body {
@@ -16,9 +30,65 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
+p {
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    cursor: pointer;
+
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+.bg-dark{
+    background:$darkBlue !important;
+}
+
+
+
+
+//Navbar
+//Navbar css
+.bg-light {
+    background: rgba(0, 164, 226, 0.31) !important;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(1.4px);
+    -webkit-backdrop-filter: blur(1.4px);
+    border: 1px solid rgba(0, 164, 226, 0.18);
+
+    width: 100%;
+
+
+
+    ul {
+        li {
+            font-size: 18px;
+            align-items: center;
+            display: flex;
+
+            a {
+                text-decoration: none;
+                color: $darkBlue;
+
+                &:hover {
+                    color: $white;
+                }
+            }
+
+            .active {
+                color: $white !important;
+            }
+        }
+    }
+}
+
 //This is the main section for Login page;
 
 .loginPage{
     height:100vh;
-    background:green;
+    background:$darkBlue;
 }

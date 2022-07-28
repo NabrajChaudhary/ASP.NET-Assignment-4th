@@ -1,9 +1,11 @@
 ﻿@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Raleway:wght@400;500;600;700;800&display=swap");
+/*This is the decalaration of variables */
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -15,7 +17,48 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
 
+p {
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  cursor: pointer;
+}
+a:hover {
+  text-decoration: none;
+}
+
+.bg-dark {
+  background: #003C6B !important;
+}
+
+.bg-light {
+  background: rgba(0, 164, 226, 0.31) !important;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(1.4px);
+  -webkit-backdrop-filter: blur(1.4px);
+  border: 1px solid rgba(0, 164, 226, 0.18);
+  width: 100%;
+}
+.bg-light ul li {
+  font-size: 18px;
+  align-items: center;
+  display: flex;
+}
+.bg-light ul li a {
+  text-decoration: none;
+  color: #003C6B;
+}
+.bg-light ul li a:hover {
+  color: #ffffff;
+}
+.bg-light ul li .active {
+  color: #ffffff !important;
+}
+
 .loginPage {
   height: 100vh;
-  background: green;
+  background: #003C6B;
 }
