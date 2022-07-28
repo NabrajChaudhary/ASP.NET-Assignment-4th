@@ -7,14 +7,14 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title><%: Page.Title %> - My ASP.NET Application</title>
- 
+
     <asp:PlaceHolder runat="server">
         <%: Scripts.Render("~/bundles/modernizr") %>
     </asp:PlaceHolder>
 
     <webopt:BundleReference runat="server" Path="~/Content/css" />
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-       <link href="custom-css/styles.css" rel="stylesheet" />
+    <link href="custom-css/styles.css" rel="stylesheet" />
 </head>
 <body>
     <form runat="server">
@@ -43,9 +43,12 @@
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container">
                     <a class="navbar-brand" href="#">
-                        <h5 class="text-success">LearnFreeOnline</h5>
+                        <h5 class="text-success">
+                            <img src="Assets/images/2.png" class="img-fluid" alt="no-images" />
+                        </h5>
                     </a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
 
@@ -57,16 +60,17 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Link</a>
                             </li>
-                            
-                             <li class="nav-item">
-                                <a class="btn btn-success btn-md mx-md-2  my-1" href="login.aspx" href="signup.aspx">Signup</a>
-                                 </li>
-                          
-                             <li class="nav-item">
-                             <a class="btn btn-primary btn-md mx-md-2 my-1" href="login.aspx">Login</a>
-                         </li>
+
+                            <li class="nav-item">
+                                <a class="btn btn-success btn-md mx-md-2  my-1 text-white" href="login.aspx" href="signup.aspx">
+                                    Signup</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="btn btn-primary btn-md mx-md-2 my-1 text-white" href="loginPage.aspx">Login</a>
+                            </li>
                         </ul>
-                        
+
                     </div>
                 </div>
             </nav>
@@ -74,7 +78,7 @@
 
         <!--Navbar -->
 
-        <div class="container body-content">
+        <div class="">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
             <hr />
@@ -84,5 +88,6 @@
         </div>
 
     </form>
+    <script src="Scripts/custom-js.js"></script>
 </body>
 </html>
