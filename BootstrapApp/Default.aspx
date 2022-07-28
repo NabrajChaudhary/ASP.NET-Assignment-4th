@@ -12,12 +12,12 @@
                     <div class="row d-flex justify-content-center align-items-top">
                         <div class="col-md-12">
                             <div class="py-2">
-                                <h1 class="display-1 bold text-white py-2">Learn Free</h1>
-                                <p class="medium h5 text-white py-2">
+                                <h1 class="text-white py-2">Learn Free</h1>
+                                <p class="text-white py-2">
                                     High Quality Course at free of cost. We are latest in tech
                     and highest in quality.
                                 </p>
-                                <p class="medium h4 text-white py-2">
+                                <p class="text-white py-2">
                                     Trusted by
                     <span class="text-danger h3">300,000</span> Student and
                     Professionals.
@@ -50,7 +50,7 @@
         <div class="container py-5">
             <div class="row">
                 <!--Card Element Here-->
-                <div class="col-md-4">
+                <div class="col-9 col-sm-9 col-md-4">
                     <div class="card shadow py-2">
                         <div class="row d-flex flex-row g-0">
                             <div class="col-7">
@@ -72,7 +72,7 @@
                 </div>
                 <!--Card Element Here-->
                 <!--Card Element Here-->
-                <div class="col-md-4">
+                <div class="col-9 col-sm-9 col-md-4">
                     <div class="card shadow py-2">
                         <div class="row d-flex flex-row g-0">
                             <div class="col-7">
@@ -94,7 +94,7 @@
                 </div>
                 <!--Card Element Here-->
                 <!--Card Element Here-->
-                <div class="col-md-4">
+                <div class="col-9 col-sm-9 col-md-4">
                     <div class="card shadow py-2">
                         <div class="row d-flex flex-row g-0">
                             <div class="col-7">
@@ -120,7 +120,7 @@
         <!--Bundle course section-->
         <div class="container py-5">
             <div class="row py-5">
-                <div class="col-md-7">
+                <div class="col-10 col-sm-10 col-md-7">
                     <div class="row px-3">
                         <!--card Items for courses-->
                         <div class="col-md-6 my-1">
@@ -212,12 +212,12 @@
                         <!--card Items for courses-->
                     </div>
                 </div>
-                <div class="col-md-5">
+                <div class="col-10 col-sm-10 col-md-5">
                     <div class="d-flex align-items-end">
                         <div class="px-3">
                             <h5 class="text-white my-auto text-start regular">Popular topics to learn now
                             </h5>
-                            <h3 class="text-white my-auto py-2 text-start s-bold display-4">Don’t know where to start from?
+                            <h3 class="text-white my-auto py-2 text-start">Don’t know where to start from?
                             </h3>
                             <p class="text-white my-auto regular">
                                 It’s ok to be confused as a beginner. Tech is vast but don’t
