@@ -12,9 +12,12 @@ Inherits="BootstrapApp.login" %>
   <body>
     <section class="loginPage">
       <div class="container">
-        <div class="row d-flex justify-content-center align-items-center py-5">
-          <div class="col-md-5 mt-5">
-            <img src="Assets/images/1.png" class="img-fluid" alt="no-image" />
+           <h3 class="text-bold text-white text-center py-2">Welcome to Learn Free Olnine
+     <br />
+     Account</h3>
+        <div class="row d-flex justify-content-center align-items-center py-0">
+          <div class="col-md-6 mt-1">
+              
             <form id="form1" runat="server" class="mt-5">
               <div class="form-group">
                 <label for="exampleInputEmail1">Email address</label>
@@ -25,7 +28,34 @@ Inherits="BootstrapApp.login" %>
                   aria-describedby="emailHelp"
                 />
               </div>
-              <div class="form-group">
+                <div class="row">
+                    <div class="col-md-6">
+                         <div class="form-group">
+                       <label for="exampleInputEmail1">First Name</label>
+                       <input
+                         type="email"
+                         class="form-control"
+                         id="exampleInputEmail1"
+                         aria-describedby="emailHelp"
+                       />
+                     </div>
+                    </div>
+                     <div class="col-md-6">
+                      <div class="form-group">
+                    <label for="exampleInputEmail1">Last Name</label>
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="exampleInputEmail1"
+                      aria-describedby="emailHelp"
+                    />
+                  </div>
+                 </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+
+                        <div class="form-group">
                 <label for="exampleInputPassword1">Password</label>
                 <input
                   type="password"
@@ -33,28 +63,36 @@ Inherits="BootstrapApp.login" %>
                   id="exampleInputPassword1"
                 />
               </div>
-              <div class="form-group form-check">
+                    </div>
+                    <div class="col-md-6">
+<div class="form-group">
+                <label for="exampleInputPassword1">Confirm Password</label>
                 <input
-                  type="checkbox"
-                  class="form-check-input"
-                  id="exampleCheck1"
+                  type="password"
+                  class="form-control"
+                  id="exampleInputPassword1"
                 />
-                <label class="form-check-label" for="exampleCheck1"
-                  >Remember Me</label
-                >
               </div>
 
+                    </div>
+                </div>
+              
+              <p class="text-center text-white py-3">You are soon there! just one more step 😋</p>
+              <div class="loginButton d-flex justify-content-around align-items-center">
+                   <button type="submit" class="btn btn-brand btn-lg btn-block">
+                Create a new Account
+              </button>
+              </div>
+             
+            </form>
               <div class="text-white text-center my-3">
+                  Already have an account? 
                 <a
-                  class=" text-white"
-                  href="forgetPassword.aspx"
-                  >forgetPassword</a
+                  class=" text-primary"
+                  href="loginPage.aspx"
+                  >Login</a
                 >
               </div>
-              <button type="submit" class="btn btn-primary btn-lg btn-block">
-                Login
-              </button>
-            </form>
           </div>
         </div>
       </div>
