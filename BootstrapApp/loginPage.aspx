@@ -11,9 +11,10 @@
 <body>
     <section class="loginPage">
         <div class="container">
-            <div class="row d-flex justify-content-center align-items-center py-5">
-                <div class="col-12 col-sm-12  col-md-5 mt-5">
+            <div class="row d-flex justify-content-center align-items-center py-4">
+                <div class="col-12 col-sm-12  col-md-5 mt-0">
                     <img src="Assets/images/1.png" class="img-fluid" alt="no-image" />
+                    <h3 class="text-bold text-white text-center py-2">Login to your <br/> Account</h3>
                     <form id="form1" runat="server" class="mt-5">
                         <div class="form-group">
                             <label for="exampleInputEmail1">Email address</label>
@@ -31,7 +32,10 @@
                         <div class="text-white text-center my-3">
                             <a class="text-decoration-underline text-white" href="forgetPassword.aspx">forgetPassword</a>
                         </div>
-                        <button type="submit" class="btn btn-primary btn-lg btn-block">Login</button>
+                       <div class="loginButton d-flex justify-content-around align-items-center">
+                            <button type="submit" class="btn btn-primary btn-block m-2">Login</button>
+                            <button type="submit" class="btn btn-success btn-block m-2">Register</button>
+                       </div>
 
                     </form>
                 </div>
