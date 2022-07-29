@@ -159,6 +159,9 @@ a:hover {
 .loginPage h3 {
   font-weight: 800;
 }
+.loginPage form .form-group {
+  margin-bottom: 24px;
+}
 .loginPage form .form-group label {
   color: #ffffff;
 }
