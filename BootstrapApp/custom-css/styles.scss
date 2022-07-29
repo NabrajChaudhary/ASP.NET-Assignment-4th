@@ -175,11 +175,15 @@ a {
 .loginPage {
     height: 100vh;
     background: $darkBlue;
-    h3{
-        font-weight:800;
+
+    h3 {
+        font-weight: 800;
     }
+
     form {
         .form-group {
+            margin-bottom: 24px;
+
             label {
                 color: $white;
             }
@@ -193,19 +197,18 @@ a {
                 transition: ease-in-out 0.5s;
                 font-weight: bold;
 
+
                 &:focus {
                     outline: 0;
                     box-shadow: none;
                     border-bottom: 2px solid $blue;
                 }
-
-                
             }
         }
-        button,a{
-            padding:10px 14px;
-            border-radius:25px;
 
+        button, a {
+            padding: 10px 14px;
+            border-radius: 25px;
         }
     }
 }
