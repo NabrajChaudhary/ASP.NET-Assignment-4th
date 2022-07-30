@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Admin.Master" AutoEventWireup="true"
+﻿<%@ Page Title="Home | Learn Free Online" Language="C#" MasterPageFile="~/Admin.Master" AutoEventWireup="true"
     CodeBehind="Home.aspx.cs" Inherits="BootstrapApp.WebForm1" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
