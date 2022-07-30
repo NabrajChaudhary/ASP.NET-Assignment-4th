@@ -1,6 +1,6 @@
 ﻿@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Raleway:wght@400;500;600;700;800&display=swap");
 /*This is the decalaration of variables */
-.btn-circle {
+.btn-round {
   border-radius: 25px;
 }
 
@@ -26,6 +26,7 @@
 body {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 h1,
@@ -156,7 +157,7 @@ a:hover {
   height: 100vh;
   background: #003C6B;
 }
-.loginPage h3 {
+.loginPage h4 {
   font-weight: 800;
 }
 .loginPage form .form-group {
