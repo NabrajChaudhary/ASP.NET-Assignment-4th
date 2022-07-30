@@ -2,5 +2,13 @@
   {
     "outputFile": "custom-css/styles.css",
     "inputFile": "custom-css/styles.scss"
+  },
+  {
+    "outputFile": "custom-css/AdminNavbar.css",
+    "inputFile": "custom-css/AdminNavbar.scss"
+  },
+  {
+    "outputFile": "Scripts/navbar.es5.js",
+    "inputFile": "Scripts/navbar.js"
   }
 ]

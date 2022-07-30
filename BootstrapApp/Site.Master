@@ -54,21 +54,27 @@
 
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ml-auto d-md-flex align-md-items-center">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Default.aspx">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                          
+                           <li class="nav-item">
+                                <a class="nav-link" href="Contact.aspx">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
+                                <a class="nav-link"href="Home.aspx">Home</a>
                             </li>
 
                             <li class="nav-item">
-                                <a class="btn btn-success btn-md mx-md-2  my-1 text-white" href="signup.aspx" href="signup.aspx">
+                                <a class="btn btn-success btn-lg rounded-pill mx-md-2 px-3 my-1 text-white" href="createAccount.aspx">
                                     Signup</a>
                             </li>
 
                             <li class="nav-item">
-                                <a class="btn btn-primary btn-md mx-md-2 my-1 text-white" href="loginPage.aspx">Login</a>
+                                <a class="btn btn-primary btn-lg rounded-pill px-3 mx-md-2 my-1 text-white" href="Login.aspx">
+                                    Login</a>
                             </li>
+
                         </ul>
 
                     </div>

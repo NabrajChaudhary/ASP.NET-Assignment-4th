@@ -1,5 +1,5 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="login.aspx.cs"
-Inherits="BootstrapApp.login" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Login.aspx.cs"
+Inherits="BootstrapApp.Login" %>
 
 <!DOCTYPE html>
 
@@ -13,11 +13,18 @@ Inherits="BootstrapApp.login" %>
     <section class="loginPage">
       <div class="container">
         <div class="row d-flex justify-content-center align-items-center py-4">
-          <div class="col-md-5 mt-5">
+          <div class="col-12 col-sm-12 col-md-5 mt-0">
             <img src="Assets/images/1.png" class="img-fluid" alt="no-image" />
-            <form id="form1" runat="server" class="mt-5">
+            <h4 class="text-bold text-white text-center py-3">
+              Login to your
+              <br />
+              Account
+            </h4>
+            <form id="form1" runat="server" class="mt-3">
               <div class="form-group">
-                <label for="exampleInputEmail1">Email address</label>
+                <label class="mb-1" for="exampleInputEmail1"
+                  >Email address</label
+                >
                 <input
                   type="email"
                   class="form-control"
@@ -26,39 +33,39 @@ Inherits="BootstrapApp.login" %>
                 />
               </div>
               <div class="form-group">
-                <label for="exampleInputPassword1">Password</label>
+                <label class="mb-1" for="exampleInputPassword1">Password</label>
                 <input
                   type="password"
                   class="form-control"
                   id="exampleInputPassword1"
                 />
               </div>
-              <div class="form-group form-check">
-                <input
-                  type="checkbox"
-                  class="form-check-input"
-                  id="exampleCheck1"
-                />
-                <label class="form-check-label" for="exampleCheck1"
-                  >Remember Me</label
-                >
-              </div>
-
-              <div class="text-white text-center my-3">
-                <a class="text-white" href="forgetPassword.aspx"
+              <div
+                class="text-decoration-underline text-white text-center my-3"
+              >
+                <a
+                  class="text-decoration-underline text-white"
+                  href="forgetPassword.aspx"
                   >forgetPassword</a
                 >
               </div>
-              <button type="submit" class="btn btn-primary btn-lg btn-block">
-                Login
-              </button>
+              <div
+                class="loginButton d-flex justify-content-around align-items-center"
+              >
+                <button type="submit" class="btn btn-brand btn-block m-2">
+                  Login
+                </button>
+                <a href="createAccount.aspx" class="btn btn-brand btn-block m-2"
+                  >Register</a
+                >
+              </div>
             </form>
           </div>
         </div>
       </div>
     </section>
-    <script src="Scripts/jquery-3.4.1.min.js"></script>
-    <script src="Scripts/popper.min.js"></script>
     <script src="Scripts/bootstrap.min.js"></script>
+    <script src="Scripts/popper.js"></script>
+    <script src="Scripts/popper.min.js"></script>
   </body>
 </html>

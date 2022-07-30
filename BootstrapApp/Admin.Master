@@ -1,0 +1,92 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="BootstrapApp.Admin" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <asp:PlaceHolder runat="server">
+        <%: Scripts.Render("~/bundles/modernizr") %>
+    </asp:PlaceHolder>
+
+    <webopt:BundleReference runat="server" Path="~/Content/css" />
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.3.0/css/all.min.css" integrity="sha512-UJqci0ZyYcQ0AOJkcIkUCxLS2L6eNcOr7ZiypuInvEhO9uqIDi349MEFrqBzoy1QlfcjfURHl+WTMjEdWcv67A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="custom-css/AdminNavbar.css" rel="stylesheet" />
+
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:ScriptManager runat="server">
+            <Scripts>
+                <%--To learn more about bundling scripts in ScriptManager see https://go.microsoft.com/fwlink/?LinkID=301884 --%>
+                <%--Framework Scripts--%>
+                <asp:ScriptReference Name="MsAjaxBundle" />
+                <asp:ScriptReference Name="jquery" />
+                <asp:ScriptReference Name="bootstrap" />
+                <asp:ScriptReference Name="WebForms.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebForms.js" />
+                <asp:ScriptReference Name="WebUIValidation.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebUIValidation.js" />
+                <asp:ScriptReference Name="MenuStandards.js" Assembly="System.Web" Path="~/Scripts/WebForms/MenuStandards.js" />
+                <asp:ScriptReference Name="GridView.js" Assembly="System.Web" Path="~/Scripts/WebForms/GridView.js" />
+                <asp:ScriptReference Name="DetailsView.js" Assembly="System.Web" Path="~/Scripts/WebForms/DetailsView.js" />
+                <asp:ScriptReference Name="TreeView.js" Assembly="System.Web" Path="~/Scripts/WebForms/TreeView.js" />
+                <asp:ScriptReference Name="WebParts.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebParts.js" />
+                <asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js" />
+                <asp:ScriptReference Name="WebFormsBundle" />
+             
+                <%--Site Scripts--%>
+            </Scripts>
+        </asp:ScriptManager>
+
+        <section>
+<nav>
+    <ul>
+        <li class="logo mb-5"> <img src="Assets/images/1.png" class="img-fluid" alt="no-img" /></li>
+        <li><a href="#"><i class="fas fa-home"></i>&nbsp;  Home</a></li>
+        <li><a href="#"><i class="fas fa-graduation-cap"></i>&nbsp;  Courses</a></li>
+         <li><a href="#"><i class="fas fa-university"></i>&nbsp;  Create Courses</a></li>
+        <li><a href="#"><i class="fas fa-certificate"></i>&nbsp;  Certificates</a></li>
+        <li><a href="#"><i class="fas fa-cog"></i>&nbsp; Settings</a></li>
+        <div class="d-flex justify-content-around align-items-center  user-card">
+        <a href="userProfile.aspx" class="d-flex p-1 justify-content-between align-items-center">
+        <img src="https://images.pexels.com/photos/5207615/pexels-photo-5207615.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="img-fluid" alt="no-img" />
+       <p>Nabraj</p>
+    </a>
+    <button>
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-box-arrow-right" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M10 12.5a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v2a.5.5 0 0 0 1 0v-2A1.5 1.5 0 0 0 9.5 2h-8A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-2a.5.5 0 0 0-1 0v2z"/>
+  <path fill-rule="evenodd" d="M15.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L14.293 7.5H5.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"/>
+</svg>
+    </button>
+    </div>
+    </ul>
+    
+</nav>
+
+<div class="wrapper">
+    <div class="section">
+        <div class="box-area">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>   
+           <section class="">
+
+           </section>
+
+        </div>
+        
+    </div>
+         
+</div>  
+                  
+<footer class="py-3">
+    <p class="text-center">&copy; <%: DateTime.Now.Year %> -Learn Free Online Inc. Learn Rights</p>
+</footer>
+
+        </section>
+    </form>
+    <script src="Scripts/jquery-3.6.0.min.js"></script>
+    <script src="Scripts/navbar.js"></script>
+</body>
+</html>

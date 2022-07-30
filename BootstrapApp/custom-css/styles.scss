@@ -11,18 +11,19 @@ $black: #000000;
 $white: #ffffff;
 
 
-.btn-circle{
-    border-radius:25px;
+.btn-round {
+    border-radius: 25px;
 }
 
-.btn-brand{
-    background:$blue;
-    color:$white;
-    border:1px solid $blue;
-    &:hover{
-        background:$darkBlue;
-        border:1px solid $white;
-        color:$white;
+.btn-brand {
+    background: $blue;
+    color: $white;
+    border: 1px solid $blue;
+
+    &:hover {
+        background: $darkBlue;
+        border: 1px solid $white;
+        color: $white;
     }
 }
 
@@ -38,6 +39,7 @@ $white: #ffffff;
 body {
     padding: 0;
     margin: 0;
+    box-sizing:border-box;
 }
 
 h1,
@@ -128,7 +130,7 @@ a {
 }
 
 .bg-dark {
-    background: $darkBlue  !important;
+    background: $darkBlue !important;
 }
 
 
@@ -143,7 +145,6 @@ a {
     backdrop-filter: blur(1.4px);
     -webkit-backdrop-filter: blur(1.4px);
     border: 1px solid rgba(0, 164, 226, 0.18);
-
     width: 100%;
 
 
@@ -164,7 +165,7 @@ a {
             }
 
             .active {
-                color: $white  !important;
+                color: $white !important;
             }
         }
     }
@@ -176,7 +177,7 @@ a {
     height: 100vh;
     background: $darkBlue;
 
-    h3 {
+    h4 {
         font-weight: 800;
     }
 
