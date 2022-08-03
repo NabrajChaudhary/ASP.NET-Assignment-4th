@@ -181,6 +181,8 @@ a {
         font-weight: 800;
     }
 
+
+
     form {
         .form-group {
             margin-bottom: 24px;
@@ -210,6 +212,33 @@ a {
         button, a {
             padding: 10px 14px;
             border-radius: 25px;
+        }
+    }
+}
+
+.userProfileForms {
+    .form-group {
+        margin-bottom: 24px;
+
+        label {
+            color: $white;
+        }
+
+        .form-control {
+            border: none;
+            background: transparent;
+            border-bottom: 1px solid $white;
+            border-radius: 0;
+            color: $white;
+            transition: ease-in-out 0.5s;
+            font-weight: bold;
+
+
+            &:focus {
+                outline: 0;
+                box-shadow: none;
+                border-bottom: 2px solid $blue;
+            }
         }
     }
 }

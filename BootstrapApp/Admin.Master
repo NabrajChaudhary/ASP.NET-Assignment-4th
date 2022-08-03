@@ -17,7 +17,7 @@
         integrity="sha512-UJqci0ZyYcQ0AOJkcIkUCxLS2L6eNcOr7ZiypuInvEhO9uqIDi349MEFrqBzoy1QlfcjfURHl+WTMjEdWcv67A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="custom-css/AdminNavbar.css" rel="stylesheet" />
-
+    <link href="custom-css/styles.scss" rel="stylesheet" />
 </head>
 <body>
     <form id="form1" runat="server">
