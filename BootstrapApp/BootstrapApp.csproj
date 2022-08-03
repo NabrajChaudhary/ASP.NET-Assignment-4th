@@ -129,6 +129,7 @@
     <Content Include="custom-css\styles.min.css">
       <DependentUpon>styles.css</DependentUpon>
     </Content>
+    <Content Include="db\WebForm1.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\fontawesome-webfont.svg" />
@@ -336,6 +337,13 @@
     </Compile>
     <Compile Include="CreateCourses.aspx.designer.cs">
       <DependentUpon>CreateCourses.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="db\WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="db\WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
