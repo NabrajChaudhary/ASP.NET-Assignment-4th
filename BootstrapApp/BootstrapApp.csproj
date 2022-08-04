@@ -61,7 +61,9 @@
     </Reference>
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System" />
-    <Reference Include="System.Data" />
+    <Reference Include="System.Data">
+      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Data.dll</HintPath>
+    </Reference>
     <Reference Include="System.Core" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Web.Extensions" />
@@ -120,9 +122,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
-    <Content Include="App_Data\db.mdf" />
-    <Content Include="App_Data\db_log.ldf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    <Content Include="App_data\appdb.mdf" />
+    <Content Include="App_data\appdb_log.ldf">
+      <DependentUpon>appdb.mdf</DependentUpon>
     </Content>
     <Content Include="Certificates.aspx" />
     <Content Include="Contact.aspx" />
