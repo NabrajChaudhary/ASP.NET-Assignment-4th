@@ -124,6 +124,10 @@
     <Content Include="App_Data\db_log.ldf">
       <DependentUpon>db.mdf</DependentUpon>
     </Content>
+    <Content Include="App_Data\newDB.mdf" />
+    <Content Include="App_Data\newDB_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Certificates.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-grid.css" />
