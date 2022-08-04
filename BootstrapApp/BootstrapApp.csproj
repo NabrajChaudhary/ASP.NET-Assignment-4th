@@ -122,7 +122,7 @@
     <Content Include="About.aspx" />
     <Content Include="App_Data\db.mdf" />
     <Content Include="App_Data\db_log.ldf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>db.mdf</DependentUpon>
     </Content>
     <Content Include="Certificates.aspx" />
     <Content Include="Contact.aspx" />
