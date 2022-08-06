@@ -11,11 +11,9 @@ namespace BootstrapApp
 #pragma warning restore CS0437 // Type conflicts with imported namespace
     {
 
-
         private object exampleInputEmail1;
 
-
-        protected void Page_Load(object sender, EventArgs e)
+        protected void Page_Load(object sender)
         {
 
         }
