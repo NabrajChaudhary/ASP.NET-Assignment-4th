@@ -122,8 +122,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
-    <Content Include="App_data\appdb.mdf" />
-    <Content Include="App_data\appdb_log.ldf">
+    <Content Include="App_Data\appdb.mdf" />
+    <Content Include="App_Data\appdb_log.ldf">
       <DependentUpon>appdb.mdf</DependentUpon>
     </Content>
     <Content Include="Certificates.aspx" />
@@ -429,6 +429,7 @@
     <Compile Include="Site.Mobile.Master.designer.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
     </Compile>
+    <Compile Include="System\Web.cs" />
     <Compile Include="userProfile.aspx.cs">
       <DependentUpon>userProfile.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -477,6 +478,9 @@
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="Scripts\index.d.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
