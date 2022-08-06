@@ -1,6 +1,6 @@
 ﻿@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Raleway:wght@400;500;600;700;800&display=swap");
 /*This is the decalaration of variables */
-.btn-circle {
+.btn-round {
   border-radius: 25px;
 }
 
@@ -26,6 +26,7 @@
 body {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 h1,
@@ -156,8 +157,11 @@ a:hover {
   height: 100vh;
   background: #003C6B;
 }
-.loginPage h3 {
+.loginPage h4 {
   font-weight: 800;
+}
+.loginPage form .form-group {
+  margin-bottom: 24px;
 }
 .loginPage form .form-group label {
   color: #ffffff;
@@ -179,4 +183,25 @@ a:hover {
 .loginPage form button, .loginPage form a {
   padding: 10px 14px;
   border-radius: 25px;
+}
+
+.userProfileForms .form-group {
+  margin-bottom: 24px;
+}
+.userProfileForms .form-group label {
+  color: #ffffff;
+}
+.userProfileForms .form-group .form-control {
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #ffffff;
+  border-radius: 0;
+  color: #ffffff;
+  transition: ease-in-out 0.5s;
+  font-weight: bold;
+}
+.userProfileForms .form-group .form-control:focus {
+  outline: 0;
+  box-shadow: none;
+  border-bottom: 2px solid #00A4E2;
 }
