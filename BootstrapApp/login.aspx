@@ -19,22 +19,20 @@
               <br />
                         Account
                     </h4>
+
+
                     <form id="form1" runat="server" class="mt-3">
                         <div class="form-group">
-                            <label class="mb-1" for="exampleInputEmail1">
-                                Email address</label>
-                            <input
-                                type="email"
-                                class="form-control"
-                                id="exampleInputEmail1"
-                                aria-describedby="emailHelp" />
+                            <asp:Label ID="Label2"
+                                runat="server" class="mb-1 text-white" Text="Label">Email</asp:Label>
+                            <asp:TextBox ID="TextBox2" class="form-control" runat="server"></asp:TextBox>
                         </div>
                         <div class="form-group">
-                            <label class="mb-1" for="exampleInputPassword1">Password</label>
-                            <input
-                                type="password"
-                                class="form-control"
-                                id="exampleInputPassword1" />
+
+                            <asp:Label ID="Label1"
+                                runat="server" class="mb-1 text-white" Text="Label">Password</asp:Label>
+                            <asp:TextBox ID="TextBox1" class="form-control" TextMode="Password" runat="server"></asp:TextBox>
+
                         </div>
                         <div
                             class="text-decoration-underline text-white text-center my-3">
@@ -44,12 +42,21 @@
                         </div>
                         <div
                             class="loginButton d-flex justify-content-around align-items-center">
+<<<<<<< HEAD
+                            <asp:Button ID="Button2" class="btn btn-brand btn-block m-2" runat="server"
+                                Text="Login" />
+                            <asp:HyperLink ID="HyperLink1" href="createAccount.aspx" class="btn btn-brand btn-block m-2"
+                                runat="server">Register</asp:HyperLink>
+=======
                             <button type="submit" class="btn btn-brand btn-block m-2">
                                 Login
                
+                           
                             </button>
                             <a href="createAccount.aspx" class="btn btn-brand btn-block m-2">Register</a>
+>>>>>>> b37f4bd3b674aa4f26f9500bc69564e470eeb47f
                         </div>
+
                     </form>
                 </div>
             </div>
