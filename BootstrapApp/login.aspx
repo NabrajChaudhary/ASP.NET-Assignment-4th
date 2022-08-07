@@ -68,6 +68,33 @@
 
 
                         </div>
+                        <div
+                            class="loginButton d-flex justify-content-around align-items-center">
+
+                            <asp:Button ID="Button4" class="btn btn-brand btn-block m-2" runat="server"
+                                Text="Login" />
+                            <asp:HyperLink ID="HyperLink4" href="createAccount.aspx" class="btn btn-brand btn-block m-2"
+                                runat="server">
+                                Register</asp:HyperLink>
+                            <asp:Button ID="Button5" class="btn btn-brand btn-block m-2" runat="server"
+                                Text="Login" />
+                            <asp:HyperLink ID="HyperLink5" href="createAccount.aspx" class="btn btn-brand btn-block m-2"
+                                runat="server">
+                                Register</asp:HyperLink>
+                            <asp:Button ID="Button6" class="btn btn-brand btn-block m-2" runat="server"
+                                Text="Login" />
+                            <asp:HyperLink ID="HyperLink6" href="createAccount.aspx" class="btn btn-brand btn-block m-2"
+                                runat="server">
+                                Register</asp:HyperLink>
+                            <asp:Button ID="Button7" class="btn btn-brand btn-block m-2" runat="server"
+                                Text="Login" />
+                            <asp:HyperLink ID="HyperLink7" href="createAccount.aspx" class="btn btn-brand btn-block m-2"
+                                runat="server">
+                                Register</asp:HyperLink>
+
+
+
+                        </div>
 
                     </form>
                 </div>
