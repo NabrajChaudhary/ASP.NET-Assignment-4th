@@ -31,7 +31,8 @@
 
                             <asp:Label ID="lblPassword"
                                 runat="server" class="mb-1 text-white" Text="Label">Password</asp:Label>
-                            <asp:TextBox ID="TextBox1" class="form-control" TextMode="Password" runat="server"></asp:TextBox>
+                            <asp:TextBox ID="TextBox1" class="form-control" TextMode="Password" runat="server">
+                            </asp:TextBox>
 
                         </div>
                         <div
@@ -46,7 +47,13 @@
                             <asp:Button ID="BtnLogin" class="btn btn-brand btn-block m-2" runat="server"
                                 Text="Login" />
                             <asp:HyperLink ID="hlForgotPasswords" href="createAccount.aspx" class="btn btn-brand btn-block m-2"
-                                runat="server">Register</asp:HyperLink>
+                                runat="server">
+                                Register</asp:HyperLink>
+                            <asp:Button ID="Button1" class="btn btn-brand btn-block m-2" runat="server"
+                                Text="Login" />
+                            <asp:HyperLink ID="HyperLink1" href="createAccount.aspx" class="btn btn-brand btn-block m-2"
+                                runat="server">
+                                Register</asp:HyperLink>
 
 
 
