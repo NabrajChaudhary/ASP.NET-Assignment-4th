@@ -40,14 +40,13 @@ namespace BootstrapApp
             }
             else
             {
-               /* lblMessage.ForeColor = System.Drawing.Color.Red;
-                lblMessage.Text = "Login Failed!";
-               */
+                /* lblMessage.ForeColor = System.Drawing.Color.Red;
+                 lblMessage.Text = "Login Failed!";
+                */
             }
             con.Close();
         }
 
 
     }
-}
 }
