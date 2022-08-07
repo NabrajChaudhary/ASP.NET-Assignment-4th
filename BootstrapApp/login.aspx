@@ -48,12 +48,7 @@
                             <asp:HyperLink ID="hlForgotPasswords" href="createAccount.aspx" class="btn btn-brand btn-block m-2"
                                 runat="server">Register</asp:HyperLink>
 
-                            <button type="submit" class="btn btn-brand btn-block m-2">
-                                Login
-               
-                           
-                            </button>
-                            <a href="createAccount.aspx" class="btn btn-brand btn-block m-2">Register</a>
+
 
                         </div>
 
