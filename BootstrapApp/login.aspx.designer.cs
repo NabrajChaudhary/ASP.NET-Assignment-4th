@@ -24,13 +24,13 @@ namespace BootstrapApp
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// Label2 control.
+        /// lblEMail control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label2;
+        protected global::System.Web.UI.WebControls.Label lblEMail;
 
         /// <summary>
         /// TextBox2 control.
@@ -42,13 +42,13 @@ namespace BootstrapApp
         protected global::System.Web.UI.WebControls.TextBox TextBox2;
 
         /// <summary>
-        /// Label1 control.
+        /// lblPassword control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label1;
+        protected global::System.Web.UI.WebControls.Label lblPassword;
 
         /// <summary>
         /// TextBox1 control.
@@ -60,21 +60,21 @@ namespace BootstrapApp
         protected global::System.Web.UI.WebControls.TextBox TextBox1;
 
         /// <summary>
-        /// Button2 control.
+        /// BtnLogin control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button2;
+        protected global::System.Web.UI.WebControls.Button BtnLogin;
 
         /// <summary>
-        /// HyperLink1 control.
+        /// hlForgotPasswords control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink HyperLink1;
+        protected global::System.Web.UI.WebControls.HyperLink hlForgotPasswords;
     }
 }
