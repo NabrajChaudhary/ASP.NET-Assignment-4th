@@ -54,6 +54,16 @@
                             <asp:HyperLink ID="HyperLink1" href="createAccount.aspx" class="btn btn-brand btn-block m-2"
                                 runat="server">
                                 Register</asp:HyperLink>
+                            <asp:Button ID="Button2" class="btn btn-brand btn-block m-2" runat="server"
+                                Text="Login" />
+                            <asp:HyperLink ID="HyperLink2" href="createAccount.aspx" class="btn btn-brand btn-block m-2"
+                                runat="server">
+                                Register</asp:HyperLink>
+                            <asp:Button ID="Button3" class="btn btn-brand btn-block m-2" runat="server"
+                                Text="Login" />
+                            <asp:HyperLink ID="HyperLink3" href="createAccount.aspx" class="btn btn-brand btn-block m-2"
+                                runat="server">
+                                Register</asp:HyperLink>
 
 
 
