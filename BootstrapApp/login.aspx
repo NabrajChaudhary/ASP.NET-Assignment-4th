@@ -43,8 +43,8 @@
                         <div
                             class="loginButton d-flex justify-content-around align-items-center">
 
-                            <asp:Button ID="BtnLogin" class="btn btn-brand btn-block m-2" runat="server"
-                                Text="Login" />
+                            <asp:Button ID="btnLogin" class="btn btn-brand btn-block m-2" runat="server"
+                                Text="Login" OnClick="BtnLogin_Click1" />
                             <asp:HyperLink ID="hlForgotPasswords" href="createAccount.aspx" class="btn btn-brand btn-block m-2"
                                 runat="server">Register</asp:HyperLink>
 
