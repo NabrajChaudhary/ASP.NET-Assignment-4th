@@ -1,11 +1,10 @@
 ﻿using System;
-using System.Web;
 using System.Web.Optimization;
 using System.Web.Routing;
 
 namespace BootstrapApp
 {
-    public class Global : HttpApplication
+    public class Global : System.Web.HttpApplication
     {
         void Application_Start(object sender, EventArgs e)
         {

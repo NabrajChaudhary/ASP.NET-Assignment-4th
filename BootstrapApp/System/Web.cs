@@ -8,5 +8,9 @@
             {
             }
         }
+
+        public class HttpApplication
+        {
+        }
     }
 }
